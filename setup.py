@@ -74,7 +74,8 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
         'gspread==0.3.0',
-        'oauth2client==1.5.2'
+        'oauth2client==1.5.2',
+        'pyOpenSSL==0.15.1'
     ],
 
     # If there are data files included in your packages that need to be
